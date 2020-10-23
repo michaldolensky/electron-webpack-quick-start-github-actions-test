@@ -6,7 +6,10 @@
     "dev": "electron-webpack dev",
     "build": "electron-webpack",
     "dist": "yarn compile && electron-builder",
-    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
+    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null",
+    "version:major": "yarn version --major",
+    "version:minor": "yarn version --minor",
+    "version:patch": "yarn version --patch"
   },
   "dependencies": {
     "source-map-support": "^0.5.16"
