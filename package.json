@@ -12,7 +12,6 @@
     "version:patch": "yarn version --patch"
   },
   "dependencies": {
-    "source-map-support": "^0.5.16"
   },
   "devDependencies": {
     "electron": "8.2.0",
